@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wayeez Giash | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="Hero" class="top-padding">
+        <div class="container"></div>
+    </div>
+    <nav class="navbar rounded-5 fixed-top navbar-expand-lg navbar-dark py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Wayeez Giash</a>
+
+            <button 
+             class="navbar-toggler" 
+             type="button" 
+             data-bs-toggle="collapse" 
+             data-bs-target="#navmenu">
+
+             <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link ms-lg-4 text-light">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link ms-lg-5 text-light">Bio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link ms-lg-5 text-light">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://docs.google.com/document/d/1M_TpVXMaC7KyNu59UPBCmFL8ZnMKKH_LGu7AqQBY-Do/edit?usp=sharing" class="nav-link ms-lg-5 text-light">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="bg-black text-light p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-flex d-sm-flex align-items-center justify-content-between ">
+                <div class="me-4" >
+                    <h1>Hi! Im <span class="text-warning auto-type gradient-text"></span></h1>
+                    <p class="lead my-4">
+                        I specialize in front-end engineering, creating sleek, user-friendly web applications with modern UX/UI principles.
+                    </p>
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <script>
+                        var typed = new Typed(".auto-type", {
+                            strings : ["a Programmer", "a Designer", "Wayeez"],
+                            typeSpeed: 150,
+                            backSpeed: 150,
+                            loop:true,
+                        })
+                        
+                    </script>
+                </div>
+                <img class="img-fluid w-50 d-none d-lg-block rounded-4" src="/assets/imgs/profile.jpg" alt="ProfilePhoto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Socials -->
+
+     <section id="projects" class="bg-black text-light py-5 px-md-5">
+        <div class="container socials">
+            <div class="d-flex justify-content-between align-items-center px-3 py-2">
+                <a href="https://www.linkedin.com/in/wayeez-giash/" class="">
+                    <img src="/assets/icons/linkedin.png" alt="Linkedin: Wayeez Giash">
+                </a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTNqVmWLZvvSTLJJcLxSmqcFBLcQTPmxwwFfRGHLqvfcDWVNGgrrVQZlHsRPqrxcJLLNnq" class="">
+                    <img src="/assets/icons/email.png" alt="Email: gwayeez@gmail.com">
+                </a>
+                <a href="https://github.com/wgiash" class="">
+                    <img src="/assets/icons/github.png" alt="Github: wgiash">
+                </a>
+            </div>
+        </div>
+     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+<!-- Project Boxes -->
+<section class="project p-5">
+    
+    <div class="container ">
+        <div class="row text-center g-5">
+            <div class="col-lg">
+                <div class="card rounded-4 text-light p-4">
+                    <a href="https://wayeezgiash2.github.io/Niura.io/" class="">
+                        <img src="/assets/imgs/niura.jpg" class="img-fluid rounded-3" alt="">
+                    </a>
+                    <h3 class="pt-4">Website: <span class="role">Contractor</span> </h3>
+                    <p>This is a website I designed and engineered for Niura, a BCI Tech start up in Long Island, New York.</p>
+                    <button onclick="window.location.href='https://wayeezgiash2.github.io/Niura.io/'" class="rounded-3 btn btn-light btn-lg mt-1">Preview</button>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="card rounded-4 text-light p-4">
+                    <a href="index.html" class="">
+                        <img src="/assets/imgs/web.png" class="img-fluid rounded-3" alt="">
+                    </a>
+                    <h3 class="pt-4">Website: <span class="role">Personal</span> </h3>
+                    <p>My personal hub. Here's where you'll find my projects, contact info, and general facts about me.</p>
+                    <button onclick="scrollToSection('Hero')" class="rounded-3 btn btn-light btn-lg mt-1">Already Here!</button>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="card rounded-4 text-light p-4">
+                    <a href="https://github.com/wgiash" class="">
+                        <img src="/assets/imgs/finfit.png" class="img-fluid rounded-3" alt="">
+                    </a>
+                    <h3 class="pt-4">App: <span class="role">Collaboration</span> </h3>
+                    <p>Fin Fit, developed in collaboration with a peer, aims to gamify the workout experience for those who don't enjoy traditional excersize. </p>
+                    <button class="btn rounded-3 btn-light btn-lg mt-1">Preview</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function scrollToSection(sectionId) {
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>

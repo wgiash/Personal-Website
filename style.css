@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Logo';
+    src: url('/assets/fonts/Horizon-Font/Horizon\ Lines2.otf');
+}
+
+.top-padding {
+    padding-top: 6.5rem;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-family: Logo;
+}
+
+.profile {
+    border: 1px solid white;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #eeaeca, #94bbe9); /* Adjust gradient colors and direction */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.role {
+    background: linear-gradient(45deg, #eeaeca, #94bbe9); /* Adjust gradient colors and direction */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.project {
+    background-image: url(/assets/imgs/project-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card {
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5) ;
+    background-color: rgba(225,225,225, 0.1);
+    border-radius: 1rem;
+    border: 1px solid white;
+}
+
+.socials {
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5) ;
+    background-color: rgba(225,225,225, 0.1);
+    border-radius: 1rem;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.py-3 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    width:80%;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5) ;
+    background-color: rgba(225,225,225, 0.1);
+    border: 1px solid white;
+  }

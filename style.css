@@ -27,7 +27,7 @@ body {
 }
 
 .project {
-    background-image: url(/assets/imgs/project-background.jpg);
+    background-image: url(imgs/project-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
